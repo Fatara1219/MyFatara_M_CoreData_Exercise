@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CCF9F9BC24E443590096F42A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF9F9BB24E443590096F42A /* AppDelegate.swift */; };
+		CCF9F9BE24E443590096F42A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF9F9BD24E443590096F42A /* SceneDelegate.swift */; };
+		CCF9F9C024E443590096F42A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF9F9BF24E443590096F42A /* ViewController.swift */; };
+		CCF9F9C324E443590096F42A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCF9F9C124E443590096F42A /* Main.storyboard */; };
+		CCF9F9C624E443590096F42A /* MyFatara_M_CoreData_Exercise.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CCF9F9C424E443590096F42A /* MyFatara_M_CoreData_Exercise.xcdatamodeld */; };
+		CCF9F9C824E4435A0096F42A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCF9F9C724E4435A0096F42A /* Assets.xcassets */; };
+		CCF9F9CB24E4435A0096F42A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCF9F9C924E4435A0096F42A /* LaunchScreen.storyboard */; };
+		CCF9F9D624E4435B0096F42A /* MyFatara_M_CoreData_ExerciseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF9F9D524E4435B0096F42A /* MyFatara_M_CoreData_ExerciseTests.swift */; };
+		CCF9F9E124E4435B0096F42A /* MyFatara_M_CoreData_ExerciseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF9F9E024E4435B0096F42A /* MyFatara_M_CoreData_ExerciseUITests.swift */; };
+		CCF9F9EF24E445AC0096F42A /* Unknown.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CCF9F9EE24E445AC0096F42A /* Unknown.jpeg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CCF9F9D224E4435B0096F42A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCF9F9B024E443590096F42A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCF9F9B724E443590096F42A;
+			remoteInfo = MyFatara_M_CoreData_Exercise;
+		};
+		CCF9F9DD24E4435B0096F42A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCF9F9B024E443590096F42A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCF9F9B724E443590096F42A;
+			remoteInfo = MyFatara_M_CoreData_Exercise;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CCF9F9B824E443590096F42A /* MyFatara_M_CoreData_Exercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFatara_M_CoreData_Exercise.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCF9F9BB24E443590096F42A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CCF9F9BD24E443590096F42A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CCF9F9BF24E443590096F42A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CCF9F9C224E443590096F42A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CCF9F9C524E443590096F42A /* MyFatara_M_CoreData_Exercise.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyFatara_M_CoreData_Exercise.xcdatamodel; sourceTree = "<group>"; };
+		CCF9F9C724E4435A0096F42A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CCF9F9CA24E4435A0096F42A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CCF9F9CC24E4435A0096F42A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCF9F9D124E4435B0096F42A /* MyFatara_M_CoreData_ExerciseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFatara_M_CoreData_ExerciseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCF9F9D524E4435B0096F42A /* MyFatara_M_CoreData_ExerciseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFatara_M_CoreData_ExerciseTests.swift; sourceTree = "<group>"; };
+		CCF9F9D724E4435B0096F42A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCF9F9DC24E4435B0096F42A /* MyFatara_M_CoreData_ExerciseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFatara_M_CoreData_ExerciseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCF9F9E024E4435B0096F42A /* MyFatara_M_CoreData_ExerciseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFatara_M_CoreData_ExerciseUITests.swift; sourceTree = "<group>"; };
+		CCF9F9E224E4435B0096F42A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCF9F9EE24E445AC0096F42A /* Unknown.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Unknown.jpeg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCF9F9B524E443590096F42A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCF9F9CE24E4435B0096F42A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCF9F9D924E4435B0096F42A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCF9F9AF24E443590096F42A = {
+			isa = PBXGroup;
+			children = (
+				CCF9F9BA24E443590096F42A /* MyFatara_M_CoreData_Exercise */,
+				CCF9F9D424E4435B0096F42A /* MyFatara_M_CoreData_ExerciseTests */,
+				CCF9F9DF24E4435B0096F42A /* MyFatara_M_CoreData_ExerciseUITests */,
+				CCF9F9B924E443590096F42A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCF9F9B924E443590096F42A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCF9F9B824E443590096F42A /* MyFatara_M_CoreData_Exercise.app */,
+				CCF9F9D124E4435B0096F42A /* MyFatara_M_CoreData_ExerciseTests.xctest */,
+				CCF9F9DC24E4435B0096F42A /* MyFatara_M_CoreData_ExerciseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCF9F9BA24E443590096F42A /* MyFatara_M_CoreData_Exercise */ = {
+			isa = PBXGroup;
+			children = (
+				CCF9F9BB24E443590096F42A /* AppDelegate.swift */,
+				CCF9F9BD24E443590096F42A /* SceneDelegate.swift */,
+				CCF9F9BF24E443590096F42A /* ViewController.swift */,
+				CCF9F9C124E443590096F42A /* Main.storyboard */,
+				CCF9F9EE24E445AC0096F42A /* Unknown.jpeg */,
+				CCF9F9C724E4435A0096F42A /* Assets.xcassets */,
+				CCF9F9C924E4435A0096F42A /* LaunchScreen.storyboard */,
+				CCF9F9CC24E4435A0096F42A /* Info.plist */,
+				CCF9F9C424E443590096F42A /* MyFatara_M_CoreData_Exercise.xcdatamodeld */,
+			);
+			path = MyFatara_M_CoreData_Exercise;
+			sourceTree = "<group>";
+		};
+		CCF9F9D424E4435B0096F42A /* MyFatara_M_CoreData_ExerciseTests */ = {
+			isa = PBXGroup;
+			children = (
+				CCF9F9D524E4435B0096F42A /* MyFatara_M_CoreData_ExerciseTests.swift */,
+				CCF9F9D724E4435B0096F42A /* Info.plist */,
+			);
+			path = MyFatara_M_CoreData_ExerciseTests;
+			sourceTree = "<group>";
+		};
+		CCF9F9DF24E4435B0096F42A /* MyFatara_M_CoreData_ExerciseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CCF9F9E024E4435B0096F42A /* MyFatara_M_CoreData_ExerciseUITests.swift */,
+				CCF9F9E224E4435B0096F42A /* Info.plist */,
+			);
+			path = MyFatara_M_CoreData_ExerciseUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCF9F9B724E443590096F42A /* MyFatara_M_CoreData_Exercise */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCF9F9E524E4435B0096F42A /* Build configuration list for PBXNativeTarget "MyFatara_M_CoreData_Exercise" */;
+			buildPhases = (
+				CCF9F9B424E443590096F42A /* Sources */,
+				CCF9F9B524E443590096F42A /* Frameworks */,
+				CCF9F9B624E443590096F42A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyFatara_M_CoreData_Exercise;
+			productName = MyFatara_M_CoreData_Exercise;
+			productReference = CCF9F9B824E443590096F42A /* MyFatara_M_CoreData_Exercise.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CCF9F9D024E4435B0096F42A /* MyFatara_M_CoreData_ExerciseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCF9F9E824E4435B0096F42A /* Build configuration list for PBXNativeTarget "MyFatara_M_CoreData_ExerciseTests" */;
+			buildPhases = (
+				CCF9F9CD24E4435B0096F42A /* Sources */,
+				CCF9F9CE24E4435B0096F42A /* Frameworks */,
+				CCF9F9CF24E4435B0096F42A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCF9F9D324E4435B0096F42A /* PBXTargetDependency */,
+			);
+			name = MyFatara_M_CoreData_ExerciseTests;
+			productName = MyFatara_M_CoreData_ExerciseTests;
+			productReference = CCF9F9D124E4435B0096F42A /* MyFatara_M_CoreData_ExerciseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CCF9F9DB24E4435B0096F42A /* MyFatara_M_CoreData_ExerciseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCF9F9EB24E4435B0096F42A /* Build configuration list for PBXNativeTarget "MyFatara_M_CoreData_ExerciseUITests" */;
+			buildPhases = (
+				CCF9F9D824E4435B0096F42A /* Sources */,
+				CCF9F9D924E4435B0096F42A /* Frameworks */,
+				CCF9F9DA24E4435B0096F42A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCF9F9DE24E4435B0096F42A /* PBXTargetDependency */,
+			);
+			name = MyFatara_M_CoreData_ExerciseUITests;
+			productName = MyFatara_M_CoreData_ExerciseUITests;
+			productReference = CCF9F9DC24E4435B0096F42A /* MyFatara_M_CoreData_ExerciseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCF9F9B024E443590096F42A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Fatara Muhammad";
+				TargetAttributes = {
+					CCF9F9B724E443590096F42A = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					CCF9F9D024E4435B0096F42A = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = CCF9F9B724E443590096F42A;
+					};
+					CCF9F9DB24E4435B0096F42A = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = CCF9F9B724E443590096F42A;
+					};
+				};
+			};
+			buildConfigurationList = CCF9F9B324E443590096F42A /* Build configuration list for PBXProject "MyFatara_M_CoreData_Exercise" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCF9F9AF24E443590096F42A;
+			productRefGroup = CCF9F9B924E443590096F42A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCF9F9B724E443590096F42A /* MyFatara_M_CoreData_Exercise */,
+				CCF9F9D024E4435B0096F42A /* MyFatara_M_CoreData_ExerciseTests */,
+				CCF9F9DB24E4435B0096F42A /* MyFatara_M_CoreData_ExerciseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCF9F9B624E443590096F42A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCF9F9EF24E445AC0096F42A /* Unknown.jpeg in Resources */,
+				CCF9F9CB24E4435A0096F42A /* LaunchScreen.storyboard in Resources */,
+				CCF9F9C824E4435A0096F42A /* Assets.xcassets in Resources */,
+				CCF9F9C324E443590096F42A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCF9F9CF24E4435B0096F42A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCF9F9DA24E4435B0096F42A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCF9F9B424E443590096F42A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCF9F9C024E443590096F42A /* ViewController.swift in Sources */,
+				CCF9F9BC24E443590096F42A /* AppDelegate.swift in Sources */,
+				CCF9F9BE24E443590096F42A /* SceneDelegate.swift in Sources */,
+				CCF9F9C624E443590096F42A /* MyFatara_M_CoreData_Exercise.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCF9F9CD24E4435B0096F42A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCF9F9D624E4435B0096F42A /* MyFatara_M_CoreData_ExerciseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCF9F9D824E4435B0096F42A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCF9F9E124E4435B0096F42A /* MyFatara_M_CoreData_ExerciseUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CCF9F9D324E4435B0096F42A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCF9F9B724E443590096F42A /* MyFatara_M_CoreData_Exercise */;
+			targetProxy = CCF9F9D224E4435B0096F42A /* PBXContainerItemProxy */;
+		};
+		CCF9F9DE24E4435B0096F42A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCF9F9B724E443590096F42A /* MyFatara_M_CoreData_Exercise */;
+			targetProxy = CCF9F9DD24E4435B0096F42A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CCF9F9C124E443590096F42A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCF9F9C224E443590096F42A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CCF9F9C924E4435A0096F42A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCF9F9CA24E4435A0096F42A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCF9F9E324E4435B0096F42A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CCF9F9E424E4435B0096F42A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCF9F9E624E4435B0096F42A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyFatara_M_CoreData_Exercise/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "genesysworks.MyFatara-M-CoreData-Exercise";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CCF9F9E724E4435B0096F42A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyFatara_M_CoreData_Exercise/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "genesysworks.MyFatara-M-CoreData-Exercise";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CCF9F9E924E4435B0096F42A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyFatara_M_CoreData_ExerciseTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "genesysworks.MyFatara-M-CoreData-ExerciseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyFatara_M_CoreData_Exercise.app/MyFatara_M_CoreData_Exercise";
+			};
+			name = Debug;
+		};
+		CCF9F9EA24E4435B0096F42A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyFatara_M_CoreData_ExerciseTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "genesysworks.MyFatara-M-CoreData-ExerciseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyFatara_M_CoreData_Exercise.app/MyFatara_M_CoreData_Exercise";
+			};
+			name = Release;
+		};
+		CCF9F9EC24E4435B0096F42A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyFatara_M_CoreData_ExerciseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "genesysworks.MyFatara-M-CoreData-ExerciseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyFatara_M_CoreData_Exercise;
+			};
+			name = Debug;
+		};
+		CCF9F9ED24E4435B0096F42A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyFatara_M_CoreData_ExerciseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "genesysworks.MyFatara-M-CoreData-ExerciseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyFatara_M_CoreData_Exercise;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCF9F9B324E443590096F42A /* Build configuration list for PBXProject "MyFatara_M_CoreData_Exercise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCF9F9E324E4435B0096F42A /* Debug */,
+				CCF9F9E424E4435B0096F42A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCF9F9E524E4435B0096F42A /* Build configuration list for PBXNativeTarget "MyFatara_M_CoreData_Exercise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCF9F9E624E4435B0096F42A /* Debug */,
+				CCF9F9E724E4435B0096F42A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCF9F9E824E4435B0096F42A /* Build configuration list for PBXNativeTarget "MyFatara_M_CoreData_ExerciseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCF9F9E924E4435B0096F42A /* Debug */,
+				CCF9F9EA24E4435B0096F42A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCF9F9EB24E4435B0096F42A /* Build configuration list for PBXNativeTarget "MyFatara_M_CoreData_ExerciseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCF9F9EC24E4435B0096F42A /* Debug */,
+				CCF9F9ED24E4435B0096F42A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CCF9F9C424E443590096F42A /* MyFatara_M_CoreData_Exercise.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CCF9F9C524E443590096F42A /* MyFatara_M_CoreData_Exercise.xcdatamodel */,
+			);
+			currentVersion = CCF9F9C524E443590096F42A /* MyFatara_M_CoreData_Exercise.xcdatamodel */;
+			path = MyFatara_M_CoreData_Exercise.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CCF9F9B024E443590096F42A /* Project object */;
+}
